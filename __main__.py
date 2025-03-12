@@ -186,7 +186,7 @@ def create_parser(description, interface_factory):
 
 
 def _version():
-    return pkg_resources.require('amodem')[0].version
+    return VERSION
 
 
 def _config_log(args):
